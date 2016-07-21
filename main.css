@@ -1,0 +1,149 @@
+.container {
+  height: 60px;
+  background-color: #D8D8D8;
+  position: fixed;
+  width: 100%;
+  border: solid 1px;
+
+}
+nav ul {
+  list-style: none;
+}
+
+.post{
+  font-size: 18px;
+  padding-right: 150px;
+  padding-top: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.account{
+  font-size: 18px;
+  padding-right: 50px;
+  padding-top: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+nav p:hover {
+  color: black;
+  text-decoration: underline;
+}
+i{
+	float: center;
+	margin-top: 100px;
+}
+span{
+	float: center;
+	margin-top: 100px;
+}
+.fa-star:hover{
+background-color: yellow;
+}
+form{
+	padding-top:30px;
+	padding-left: 80px;
+}
+input{
+	border: solid blue 1px;
+	width: 400px;
+	height: 40px;
+}
+main{
+	display: block;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rl-logo {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.rl-logo h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.fa-star {
+  color: #999;
+  padding-right: 8px;
+}
